@@ -1,0 +1,4 @@
+eureka:
+    instance:
+        appname: backendDesing
+        instanceId: backendDesing-test-test:${spring.application.instance_id:${random.value}}
